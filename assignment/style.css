@@ -1,9 +1,14 @@
 /* Give your page a fun background color */
+
+body {
+  background-color: #55ff00;
+}
 .background {
-  color: #ff0000;
+  background-color: #55ff00;
 }
 .container {
-  /* Maybe put something here? idk lol XD */
+
+/*   Maybe put something here? idk lol XD */
 }
 /* Make the header and footer a different color from the background */
 header {
@@ -28,7 +33,10 @@ p {
 }
 /* Put a border around your image */
 img {
-  border-width: 5px;
-  border-color: #00ff00;
+  width: 200px;
+  margin: 20px;
+  border: 50px #ff0000;
+  border-style: solid;
+  float: right;
 }
 /* Change the font-family of your list */
